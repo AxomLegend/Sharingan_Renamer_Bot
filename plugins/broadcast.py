@@ -14,9 +14,9 @@ logger.setLevel(logging.INFO)
  
 @Client.on_message(filters.command("users") & filters.user(ADMIN))
 async def get_stats(app :Client, message: Message):
-    mr = await message.reply('**📡 ᴀᴄᴄᴇꜱꜱɪɴɢ ᴅᴀᴛᴀʙᴀꜱᴇ...**')
+    Translation = await message.reply('**📡 ᴀᴄᴄᴇꜱꜱɪɴɢ ᴅᴀᴛᴀʙᴀꜱᴇ...**')
     total_users = await db.total_users_count()
-    await mr.edit( text=f"👾 ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ = `{total_users}`")
+    await Translation.edit( text=f"👾 ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ = `{total_users}`")
 
 @Client.on_message(filters.command("broadcast") & filters.user(ADMIN) & filters.reply)
 async def broadcast_handler(app: Client, m: Message):
