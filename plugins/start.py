@@ -6,7 +6,7 @@ import humanize
 import random
 from helper_funcs.translation import translation
 from helper_funcs.database import db
-from config import START_PIC, FLOOD, ADMIN 
+from config import WELCOME_BANNER, FLOOD, ADMIN 
 
 
 @Client.on_message(filters.private & filters.command(["start"]))
@@ -25,8 +25,8 @@ I'm Renamer + File To Video Converter Bot With Permanent Thumbnail Support!⚡</
         ],[
         InlineKeyboardButton('‼️ About', callback_data = "about"),
         ]])
-    if START_PIC:
-        await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
+    if WELCOME_BANNER:
+        await message.reply_photo(WELCOME_BANNER, caption=txt, reply_markup=button)       
     else:
         await message.reply_text(text=txt, reply_markup=button, disable_web_page_preview=True)
    
