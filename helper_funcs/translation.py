@@ -11,8 +11,7 @@ class Translation(object):
     
 <b>An Multi purpose Bot Which Can :-</b>
 ⚡ Rename Telegram Files 
-⚡ Set Custom Thumbnail
-⚡ Convert Files into Video 
+⚡ Set Custom Thumbnail 
 📱 Suggestion & Feedback ➜ <a href="https://telegram.dog/dlaize"><b>Mr. Dlaize</b></a>
 
 📊 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚄𝚂 : v2.3.00 [ ᴛʜᴜɴᴅᴇʀ ⚡ ]  
