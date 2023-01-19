@@ -1,6 +1,6 @@
 import math
 import time 
-from helper_funcs import translation
+from helper_funcs.translation import translation
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import enums
