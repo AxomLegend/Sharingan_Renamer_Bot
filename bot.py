@@ -3,7 +3,7 @@ from config import API_ID, API_HASH, TG_BOT_TOKEN, FORCE_SUB, PORT
 from aiohttp import web
 from route import web_server
 
-class APP(Client):
+class Bot(Client):
 
     def __init__(self):
         super().__init__(
@@ -42,5 +42,5 @@ class APP(Client):
         print("Bot Stopped")
        
 
-app=APP()
-app.run()
+bot=Bot()
+bot.run()
