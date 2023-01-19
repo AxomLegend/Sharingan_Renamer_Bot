@@ -5,7 +5,7 @@ id_pattern = re.compile(r'^.\d+$')
 API_ID = os.environ.get("APP_ID", "")
 API_HASH = os.environ.get("API_HASH", "")
 # get a token from @BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 # Update channel for Force Subscribe
 FORCE_SUB = os.environ.get("FORCE_SUB", "")
 # Database Name
