@@ -1,5 +1,5 @@
 from pyrogram import Client 
-from config import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB, PORT
+from config import API_ID, API_HASH, TG_BOT_TOKEN, FORCE_SUB, PORT
 from aiohttp import web
 from route import web_server
 
@@ -10,7 +10,7 @@ class APP(Client):
             "RenameBot"
             api_id=API_ID,
             api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            tg_bot_token=TG_BOT_TOKEN,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=15,
