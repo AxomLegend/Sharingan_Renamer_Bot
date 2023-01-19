@@ -13,13 +13,13 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
  
 @Client.on_message(filters.command("users") & filters.user(ADMIN))
-async def get_stats(bot :Client, message: Message):
+async def get_stats(app :Client, message: Message):
     mr = await message.reply('**📡 ᴀᴄᴄᴇꜱꜱɪɴɢ ᴅᴀᴛᴀʙᴀꜱᴇ...**')
     total_users = await db.total_users_count()
     await mr.edit( text=f"👾 ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ = `{total_users}`")
 
 @Client.on_message(filters.command("broadcast") & filters.user(ADMIN) & filters.reply)
-async def broadcast_handler(bot: Client, m: Message):
+async def broadcast_handler(app: Client, m: Message):
     all_users = await db.get_all_users()
     broadcast_msg = m.reply_to_message
     sts_msg = await m.reply_text("🪃 ʙʀᴏᴀᴅᴄᴀꜱᴛ ꜱᴛᴀʀᴛᴇᴅ!!") 
