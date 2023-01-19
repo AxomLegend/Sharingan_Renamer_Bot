@@ -48,10 +48,8 @@ Also Support Our Channel [Compass Bots](https://telegram.dog/compass_botz)
 ### Commands
 ```
 /start - Check I'm Live 🟢
-/rename - Reply to file/media
-/c2v - Convert File to Video
 /delthumb - Deleting Thumbnail
-/showthumb - View Current Thumbnail
+/viewthumb - View Current Thumbnail
 /help - To show help option
 /about - About us!🧿
 ```
