@@ -17,6 +17,6 @@ FLOOD = int(os.environ.get("FLOOD", "10"))
 #Welcome Banner Image URL
 WELCOME_BANNER = os.environ.get("WELCOME_BANNER", "")
 # Array to store users who are authorized to use the bot
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '677682427').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
 #PORT SET to 8080 for Global
 PORT = os.environ.get('PORT', '8080')
