@@ -18,7 +18,7 @@
             "value": "",
             "required": false 
         },
-        "BOT_TOKEN": {
+        "TG_BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
