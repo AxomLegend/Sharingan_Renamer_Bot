@@ -26,13 +26,21 @@ An Multi purpose Bot Which Can :-
 ⚡ Convert Files into Video 
 ⚡ Convert Video to Audio
 
+
+## Deploy To Koyeb
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/dakshkohli23/Sharingan2023&env[TG_BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_URL]&env[DB_NAME]=pyro-botz&env[FORCE_SUB]&env[WELCOME_BANNER]&env[PORT]=8080&run_command=python%20bot.py&branch=main&name=sharingan-rename-bot) 
+
 ## Deploy To Render 
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dakshkohli23/Sharingan2023)
 
-### 🚀 Heroku Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dakshkohli23/Sharingan2023)
+## Deploy To Heroku
+
+<a href="https://heroku.com/deploy?template=https://github.com/dakshkohli23/Sharingan2023"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+
+
 
 If you Find Any Bugs Or Want to Give Your Feedbacks Then Kindly Contact Us Through [Telegram ](https://telegram.dog/Dlaize) 
 Also Support Our Channel [Compass Bots](https://telegram.dog/compass_botz) 
