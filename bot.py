@@ -7,7 +7,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name="RenameBot",
+            name="Rename Bot",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=TG_BOT_TOKEN,
