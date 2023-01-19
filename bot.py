@@ -7,10 +7,10 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name="Rename Bot",
+            name="renamer",
             api_id=API_ID,
             api_hash=API_HASH,
-            bot_token=TG_BOT_TOKEN,
+            bot_token=BOT_TOKEN,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=15,
