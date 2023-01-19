@@ -34,7 +34,7 @@
             "value": "sharingan-2023",
             "required": false
         },
-        "START_PIC": {
+        "WELCOME_BANNER": {
             "description": "Your Bot Start With Pic. Send Pic URL",
             "value": "",
             "required": false
