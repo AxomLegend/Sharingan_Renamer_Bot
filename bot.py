@@ -10,7 +10,7 @@ class Bot(Client):
             name="RenameBot",
             api_id=API_ID,
             api_hash=API_HASH,
-            tg_bot_token=TG_BOT_TOKEN,
+            bot_token=TG_BOT_TOKEN,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=15,
