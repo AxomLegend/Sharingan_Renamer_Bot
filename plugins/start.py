@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceRepl
 from pyrogram.errors import FloodWait
 import humanize
 import random
-from helper_funcs.translation import translation
+from helper_funcs.translation import Translation
 from helper_funcs.database import db
 from config import WELCOME_BANNER, FLOOD, ADMIN 
 
