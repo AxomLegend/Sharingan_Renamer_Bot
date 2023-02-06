@@ -5,7 +5,7 @@ from pyrogram.errors import FloodWait
 import humanize
 import random
 from helper_funcs.translation import Translation
-from helper.database import insert 
+from helper.database import db 
 from helper.utils import not_subscribed
 
 WELCOME_BANNER = environ.get("WELCOME_BANNER", "https://graph.org/file/f9811c4708024d4a23264.jpg")
