@@ -5,9 +5,17 @@ from pyrogram.errors import FloodWait
 import humanize
 import random
 from helper_funcs.translation import Translation
-from helper_funcs.database import db
-from config import WELCOME_BANNER, FLOOD, ADMIN 
+from helper.database import insert 
+from helper.utils import not_subscribed
 
+WELCOME_BANNER = environ.get("WELCOME_BANNER", "https://graph.org/file/f9811c4708024d4a23264.jpg")
+
+@Client.on_message(filters.private & filters.create(not_subscribed))
+async def is_not_subscribed(client, message):
+    buttons = [[ InlineKeyboardButton(text="⚡ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ꜰɪʀꜱᴛ", url=client.invitelink) ]]
+    text = "**ʜᴏʟᴀ!! ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ.. ᴊᴏɪɴ ɪᴛ ꜰɪʀꜱᴛ 😵**"
+    await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
+           
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):
