@@ -28,8 +28,8 @@ I'm Renamer + File To Video Converter Bot With Permanent Thumbnail Support!⚡</
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("❗ Help", callback_data = "help")
         ],[
-        InlineKeyboardButton('🏆 Support Channel', url='https://t.me/Cartoon_Seriesz'),
-        InlineKeyboardButton('💬 Feedback', url='https://t.me/Dlaize')
+        InlineKeyboardButton('🏆 Support Channel', url='https://t.me/Ongoing_Anime_in_English_Dub'),
+        InlineKeyboardButton('💬 Feedback', url='https://t.me/BDNETWORK')
         ],[
         InlineKeyboardButton('‼️ About', callback_data = "about"),
         ]])
@@ -71,8 +71,8 @@ I'm Renamer + File To Video Converter Bot With Permanent Thumbnail Support!⚡</
             reply_markup=InlineKeyboardMarkup([[
         InlineKeyboardButton("❗ Help", callback_data = "help")
         ],[
-        InlineKeyboardButton('🏆 Support Channel', url='https://t.me/Cartoon_Seriesz'),
-        InlineKeyboardButton('💬 Feedback', url='https://t.me/Dlaize')
+        InlineKeyboardButton('🏆 Support Channel', url='https://t.me/Ongoing_Anime_in_English_Dub'),
+        InlineKeyboardButton('💬 Feedback', url='https://t.me/BDNetwork')
         ],[
         InlineKeyboardButton('‼️ About', callback_data = "about"),
         ]])
@@ -81,9 +81,9 @@ I'm Renamer + File To Video Converter Bot With Permanent Thumbnail Support!⚡</
         await query.message.edit_text(
             text=translation.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton('🍬 Anime Channel', url='https://t.me/Cartoon_Seriesz')
+               InlineKeyboardButton('🍬 Anime Channel', url='https://t.me/Ongoing_Anime_in_English_Dub')
                ],[
-               InlineKeyboardButton('💬 Feedback', url='https://t.me/Dlaize')
+               InlineKeyboardButton('💬 Feedback', url='https://t.me/BDNetwork')
                ],[
                InlineKeyboardButton("🔒 Close", callback_data = "close"),
                InlineKeyboardButton("◀️ Back", callback_data = "start")
@@ -96,9 +96,9 @@ I'm Renamer + File To Video Converter Bot With Permanent Thumbnail Support!⚡</
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton('🍬 Anime Channel', url='https://t.me/Cartoon_Seriesz')
+               InlineKeyboardButton('🍬 Anime Channel', url='https://t.me/Ongoing_Anime_in_English_Dub')
                ],[
-               InlineKeyboardButton('💬 Feedback', url='https://t.me/Dlaize')
+               InlineKeyboardButton('💬 Feedback', url='https://t.me/BDNETWORK')
                ],[
                InlineKeyboardButton("🔒 Close", callback_data = "close"),
                InlineKeyboardButton("◀️ Back", callback_data = "start")
@@ -110,9 +110,9 @@ I'm Renamer + File To Video Converter Bot With Permanent Thumbnail Support!⚡</
             text=translation.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton('🍬 Anime Channel', url='https://t.me/Cartoon_Seriesz')
+               InlineKeyboardButton('🍬 Anime Channel', url='https://t.me/Ongoing_Anime_in_English_Dub')
                ],[
-               InlineKeyboardButton('💬 Feedback', url='https://t.me/Dlaize')
+               InlineKeyboardButton('💬 Feedback', url='https://t.me/BDNetwork')
                ],[
                InlineKeyboardButton("🔒 Close", callback_data = "close"),
                InlineKeyboardButton("◀️ Back", callback_data = "start")
